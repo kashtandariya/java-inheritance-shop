@@ -22,5 +22,13 @@ delle classi che gestiscono i vari sotto tipi di prodotto.
 */
 
 public class Main {
+	    public static void main(String[] args) {
+	        Prodotto smartphone = new Smartphone(506, "Galaxy S10 Lite", "Samsung", 499.99, 22, "123456789012345", 256);
+	        Prodotto televisore = new Televisore(402, "OLED TV", "LG", 1999.99, 22, 60, true);
+	        Prodotto cuffia = new Cuffie(952, "Earbuds", "Samsung", 99.99, 22, "lilla", true);
 
+	        System.out.println(smartphone);
+	        System.out.println(televisore);
+	        System.out.println(cuffia);
+	    }
 }
